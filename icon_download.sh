@@ -38,6 +38,7 @@ checkgit() {
     rm -r /config/unraid_vm_icons
     fi
 	#run gitclone
+	echo "cloning from frankol repository"
 git -C /config clone https://github.com/frankol/unraid_vm_icons.git				
 }
 
